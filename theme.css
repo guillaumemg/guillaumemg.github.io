@@ -1,5 +1,55 @@
-.logodiv {
-	margin: auto;
-	width: 75%;
+body {
+	 margin: 0;
+	 padding:0;
+	 font: 1em tahoma, sans-serif;
 }
 
+.outer {
+	padding: 0 0;
+	display: table;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.inner {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1000px;
+}
+
+.logo {
+	margin: 0 auto;
+	width: 95%;
+}
+
+.enconstruction {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	padding-top: 3px;
+	height: 50px;
+	background-color: grey;
+	font-size: 1.5em;
+	color: white;
+}
+
+.enconstruction div {
+	display: table;
+	margin: 0 auto;
+}
+
+.enconstruction img {
+	position: relative;
+	top: 8px;
+}
+
+li {
+	line-height: 1.25em;
+	height: auto;
+}
