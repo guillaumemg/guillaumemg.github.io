@@ -1,5 +1,5 @@
 body {
-	font: 1em open sans, sans-serif;
+	font: 1em open sans, arial, sans-serif;
 	color: #555555;
 	margin: 0;
 }
@@ -16,10 +16,11 @@ body {
 	-webkit-filter: blur(5px);
 	filter: blur(5px);
 }
+
 .center_square {
 	position: fixed;
 	top: 50%;
-	left: 50%;	
+	left: 50%;
 	width: 30em;
 	height: 30em;
 	margin-top: -15em;
