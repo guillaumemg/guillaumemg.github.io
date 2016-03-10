@@ -22,10 +22,6 @@ html {
 	color: #333333;
 }
 
-ul {
-	list-style-type: none;
-}
-
 h1 {
 	font-size: 150%;
 	font-weidth: bold;
@@ -53,35 +49,37 @@ hr {
 	height: 90%;
 }
 
-.menu {
-	display: flex;
-	justify-content: space-between;
-	height: 2.5rem;
-}
-
-.menu div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 60rem;
+.nav ul {
+	list-style: none;
 	background-color: #4367D4;
 	background: linear-gradient(#6184EE, #3B5FCC);
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
 }
 
-div.menu:hover {
-	background-color: white;
-	color: #3B5FCC;
+.nav li {
+	line-height: 2rem;
+	height: 2rem;
+	flex-grow: 1;
 }
 
-.menu a {
-	color: white;
+.nav a {
 	text-decoration: none;
 	text-transform: uppercase;
+	color: white;
+	display: block;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.nav a:hover {
+	background-color: white;
+	color: #333333;
 }
 
 .top_img {
 	height: 20rem;
-	width: 60rem;
 	background: url(images/casque_blanc.jpg);
 	background-size: cover;
 }
@@ -98,4 +96,8 @@ div.menu:hover {
 
 .contact a {
 	color: white;
+}
+
+.contact ul {
+	list-style-type: none;
 }
