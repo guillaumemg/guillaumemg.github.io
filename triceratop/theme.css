@@ -1,0 +1,101 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	font-family:  open sans, arial, sans-serif;
+	color: #333333;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 150%;
+	font-weidth: bold;
+}
+
+hr {
+	border-top: 1px solid #333333;
+	margin-left: 0;
+	width: 20rem;
+}
+
+.wrapper {
+	margin: auto;
+	max-width: 60rem;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 12rem;
+}
+
+.logo {
+	padding-left: 1.4rem;
+	height: 90%;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	height: 2.5rem;
+}
+
+.menu div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60rem;
+	background-color: #4367D4;
+	background: linear-gradient(#6184EE, #3B5FCC);
+}
+
+div.menu:hover {
+	background-color: white;
+	color: #3B5FCC;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.top_img {
+	height: 20rem;
+	width: 60rem;
+	background: url(images/casque_blanc.jpg);
+	background-size: cover;
+}
+
+.equipe {
+	padding: 1.4em;
+}
+
+.contact {
+	padding: 1.4rem;
+	background-color: #4367D4;
+	color: white;
+}
+
+.contact a {
+	color: white;
+}
