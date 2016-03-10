@@ -30,21 +30,23 @@ h1 {
 hr {
 	border-top: 1px solid #333333;
 	margin-left: 0;
+	text-align: left;
+	align: left;
 	width: 20rem;
 }
 
-.wrapper {
+#wrapper {
 	margin: auto;
 	max-width: 60rem;
 }
 
-.header {
+#header {
 	display: flex;
 	align-items: center;
 	height: 12rem;
 }
 
-.logo {
+#logo {
 	padding-left: 1.4rem;
 	height: 90%;
 }
@@ -82,26 +84,56 @@ hr {
 	border-color: white;
 }
 
-.top_img {
+#top_img {
 	height: 20rem;
 	background: url(images/casque_blanc.jpg);
 	background-size: cover;
 }
 
-.equipe {
+#services {
+	padding: 1.4rem;
+	background-color: #4367D4;
+	color: white;	
+}
+
+#services hr {
+	border-color: white;
+}
+
+#realisations {
+	padding: 1.4rem;	
+}
+
+#realisations div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#realisations img {
+	margin: 1rem;
+	width: 24rem;
+	height: 24rem;
+}
+
+#equipe {
 	padding: 1.4em;
 }
 
-.contact {
+#contact {
 	padding: 1.4rem;
 	background-color: #4367D4;
 	color: white;
 }
 
-.contact a {
+#contact hr {
+	border-color: white;
+}
+
+#contact a {
 	color: white;
 }
 
-.contact ul {
+#contact ul {
 	list-style-type: none;
 }
