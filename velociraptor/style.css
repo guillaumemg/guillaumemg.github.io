@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	font-family:  open sans, arial, sans-serif;
+	color: #333333;
+}
+
+h1 {
+	font-size: 150%;
+	font-weidth: bold;
+}
+
+hr {
+	border-top: 1px solid #333333;
+	margin-left: 0;
+	text-align: left;
+	align: left;
+	width: 20rem;
+}
+
+#wrapper {
+	margin: auto;
+	max-width: 60rem;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	height: 12rem;
+}
+
+#logo {
+	padding-left: 1.4rem;
+	height: 90%;
+}
+
+.nav ul {
+	list-style: none;	
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	background-color: #4367D4;
+	background: linear-gradient(#6184EE, #3B5FCC);
+}
+
+.nav li {
+	line-height: 2rem;
+	height: 2rem;
+	flex-grow: 1;	
+}
+
+.nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	display: block;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	border: 1px solid #85A3FF;
+	position: relative;
+	top: -1px;	
+}
+
+.nav a:hover {
+	background-color: white;
+	color: #333333;
+	border-color: white;
+}
+
+#top_img {
+	height: 20rem;
+	background: url(images/casque_blanc.jpg);
+	background-size: cover;
+}
+
+#services {
+	padding: 1.4rem;
+	background-color: #4367D4;
+	color: white;	
+}
+
+#services hr {
+	border-color: white;
+}
+
+#realisations {
+	padding: 1.4rem;	
+}
+
+#realisations div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#realisations img {
+	margin: 1rem;
+	width: 24rem;
+	height: 24rem;
+}
+
+#equipe {
+	padding: 1.4em;
+}
+
+#contact {
+	padding: 1.4rem;
+	background-color: #4367D4;
+	color: white;
+}
+
+#contact hr {
+	border-color: white;
+}
+
+#contact a {
+	color: white;
+}
+
+#contact ul {
+	list-style-type: none;
+}
